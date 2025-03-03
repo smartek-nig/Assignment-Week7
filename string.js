@@ -5,7 +5,7 @@ console.log(trimmedText);
 
 // lowercase
 let lowerCaseText = trimmedText.toLowerCase();
-console.log(lowerCaseText);
+console.log('all string to lowercase:',lowerCaseText);
 
 //replace
 let replacedText = lowerCaseText.replace("test", "practice");
@@ -13,15 +13,15 @@ console.log(replacedText);
 
 //count the letter 'S'
 let counts = text.match(/s/gi).length;
-console.log(counts);
+console.log('letter S appeared:',counts);
 
 //string ends with
 let endsWithperiod = text.trim().endsWith(".");
-console.log(endsWithperiod);
+console.log('string ends with period:',endsWithperiod);
 
 //index of
 let indexOfWorld = text.trim().indexOf("World");
-console.log(indexOfWorld);
+console.log('index of world is:',indexOfWorld);
 
 //split
 let testarray = text.trim().split(" ");
@@ -38,4 +38,4 @@ console.log(capitalizedtext);
 
 //string contains
 let containshello = text.trim().includes("hello");
-console.log(containshello);
+console.log('string contains hello:',containshello);

@@ -7,25 +7,25 @@ let e = 25;
 
 //increment by the value of a by 1
 let increment = ++a;
-console.log(increment);
+console.log('increment by value of 1:',increment);
 
 //decrement by the value of b by 1
 let decrement = --b;
-console.log(decrement);
+console.log('decrement by the value of 1:',decrement);
 
 //adding c and d
 let add = c + d;
-console.log(add);
+console.log('adding c and d:',add);
 
 let f = c + d;
-console.log(f);
+console.log('the value of F:',f);
 
 //multiply e and a
 let multiply = e * a;
-console.log(multiply);
+console.log('multiply e and a:',multiply);
 
 let g = e * a;
-console.log(g);
+console.log('the value of g:',g);
 
 //comparison operator
 if (c > d) {
@@ -44,17 +44,17 @@ if (e === 25) {
 //assignment operator
 //add
 b += a;
-console.log(b);
+console.log('adding b and a:',b);
 
 //multiply
 d *= e;
-console.log(d);
+console.log('multiplying d and e:',d);
 
 //remainder
 let remainder = e % b;
-console.log(remainder);
+console.log('the remainder is:',remainder);
 
 //ternary operator
 let ternary = (a > b) ? "greater" : "smaller";
-console.log(ternary);
+console.log('the ternary shows that a is:',ternary);
 
